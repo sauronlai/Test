@@ -1,0 +1,12 @@
+print("#Q1")
+Math={'Tom','John','Mary','Jimmy','Sunny','Amy'}
+Eng={'John','Mary','Tony','Bob','Pony','Tom','Alice'}
+print('Math',Math-Eng,sep=':')
+print('Eng',Eng-Math,sep=':')
+print('Both',Math&Eng,sep=':')
+print('Total',Math|Eng,sep=':')
+print()
+print("#Q2")
+S={'Tom':[80,100,90,95],'John':[100,93,75,80]}
+print('Tom',(S['Tom'][0]+S['Tom'][1]+S['Tom'][2]+S['Tom'][3])/4,sep=':')
+print('John',(S['John'][0]+S['John'][1]+S['John'][2]+S['John'][3])/4,sep=':')
