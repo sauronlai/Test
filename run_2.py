@@ -1,0 +1,1 @@
+print("This is Daniel's laptop")
